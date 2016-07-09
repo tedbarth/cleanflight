@@ -403,7 +403,7 @@ void handleSmartPortTelemetry(void)
                 if (FLIGHT_MODE(UNUSED_MODE))
                     tmpi += 40;
                 if (FLIGHT_MODE(PASSTHRU_MODE))
-                    tmpi += 40;
+                    tmpi += 80;
 
                 if (FLIGHT_MODE(MAG_MODE))
                     tmpi += 100;
